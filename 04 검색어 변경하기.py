@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
+import pyautogui
 
-keyword = input("검색어를 입력하세요 >>> ")
-response = requests.get("https://search.naver.com/search.naver?sm=tab_hty.top&where=news&query=" + keyword)
+keyword = pyautogui.prompt("검색어를 입력하세요.")
+response = requests.get(f"https://search.naver.com/search.naver?sm=tab_hty.top&where=news&query={keyword}")
 html = response.text
 soup = BeautifulSoup(html, 'html.parser')
 links = soup.select('.news_tit')
