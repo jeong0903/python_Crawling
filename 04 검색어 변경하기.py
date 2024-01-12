@@ -17,3 +17,4 @@ for i in range(1, lastpage * 10, 10):      # 1~10, 11~20, 21~30, (31은 x)
         url = link.attrs['href']
         print(title, url)
     pageNum = pageNum + 1
+    # time.sleep(0.5)
