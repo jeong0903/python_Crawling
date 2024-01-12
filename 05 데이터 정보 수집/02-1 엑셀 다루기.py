@@ -17,4 +17,4 @@ ws['A3'] = '002'
 ws['B3'] = 'Piggy'
 
 # 4) 엑셀 저장하기
-wb.save(r'C:\Users\LG-PC\Desktop\코딩\Python02 크롤링\05 데이터 정보 수집\02 참가자_data.xlsx')
+wb.save(r'C:\Users\LG-PC\Desktop\코딩\Python02 크롤링\05 데이터 정보 수집\02-2 참가자_data.xlsx')
