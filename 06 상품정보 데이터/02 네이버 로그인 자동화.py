@@ -32,7 +32,7 @@ pyperclip.copy("wjdgus_0903")
 pyautogui.hotkey("ctrl", "v")
 time.sleep(5)
 
-# 비밀번호 입력창
+# 비밀번호 입력창wjdgus_09039193jane
 pw = driver.find_element(By.CSS_SELECTOR, "#pw")
 pw.click()
 pyperclip.copy("9193jane")
